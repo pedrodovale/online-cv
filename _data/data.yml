@@ -4,283 +4,244 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Pedro do Vale
+  tagline: Back-end Developer
+  avatar: pic.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: pedroddvale@gmail.com
+  phone: +351 937 088 914
+  timezone: Europe/Brussels
+  citizenship: Portuguese
+  website:
+  linkedin: pedroddvale
+  xing:
+  github: pedrodovale
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Native
+      - idiom: Portuguese
+        level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+      - idiom: English
+        level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
+      - item: Running
+        link:
 
+      - item: Travelling
+        link:
 
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+      - item: Photography
+        link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Hello there!
+
+    I'm Pedro. I'm a **Java** Back-end Developer with a strong focus on the 
+    **Spring Framework**, experienced in building scalable and secure 
+    applications ranging from **security** platforms to user-focused 
+    **information systems**. Recognized as a team player and "team facilitator" 
+    for fostering collaboration and efficiency.
+
+    Originally from Portugal, currently **based in Brussels**, and open to 
+    relocation.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: MSc in Computer Science
+      university: Instituto Superior Técnico (Lisbon - Portugal)
+      time: 2015 - 2017
+      details: |
+        Specialised in Software Engineering and Distributed Systems
+        Master Thesis on Computer Security: "Remote Qualified Digital Signatures"
+    - degree: BSc in Computer Science
+      university: Faculdade de Ciências da Universidade de Lisboa (Lisbon - Portugal)
+      time: 2011 - 2015
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: Senior Software Developer
+      time: 2020 - 2025
+      company: European Commission (Brussels - Belgium)
+      details: |
+
+        - My first international role
+        - At European Commission Anti-Fraud Office (OLAF)
+        - Initially **outsourced** by a consultancy company based in Portugal
+        - Since 2021, as a **contractor**
+        - deep technical expertise and adoption of modern practices such as 
+        **CI/CD** and **API-first** development (with **OpenAPI Specification**)
+        with focus on OAuth implementations
+        - Mostly **remote**.
+
+    - role: Junior Software Developer
+      time: 2017 - 2020
+      company: Multicert (Lisbon - Portugal)
+      details: |
+        - My first job
+        - Started as a trainee as part of the Master thesis
+        - Later hired as a Junior developer
+        - Mostly focused on projects related with digitally signed documents
+        - **On-site**.
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: AWS Certified Cloud Practitioner
+      start: 2024
+      organization: Amazon Web Services Training and Certification
+      credentialid:
+      credentialurl: www.credly.com/badges/41a84647-1019-4f17-b27c-4ba12cdc21dd/public_url
+      credentialname: AWS Certified Cloud Practitioner
+    - name: GitHub Foundations
+      start: 2024
+      organization: GitHub
+      credentialid:
+      credentialurl: www.credly.com/badges/1dc9b559-4c1e-42b9-8118-5d1f6785760b/public_url
+      credentialname: GitHub Foundations
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  intro:
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: AWS S3 Streamed Upload Springboot Starter
+      tagline: "Designed and implemented a Spring Boot starter for file uploads to external storage via AWS S3 API, owning both development and architecture."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: "OAuth DPoP Springboot Starter"
+      tagline: "Spring Boot starter for OAuth2 DPoP support in a two-person team, closely following an evolving IETF draft."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Customs Joint Operations Springboot application
+      tagline: "Led the refactoring of a RESTful back-end supporting collaboration across Member States in Joint Operations, as part of a 7-member Agile team applying CI/CD and Agile principles."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Digital Signatures Springboot application
+      tagline: "Orchestrator of digital signatures for Word and PDF documents, with implemenration of an early release of the Cloud Signature Consortium (CSC) API related to Adobe Sign, Portuguese citizen card. Web, B2B, and mobile interfaces"
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  intro:
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+    - title: "RSIGN: Remote Qualified Secure System"
+      link: "#"
+      authors: Pedro do Vale
+      conference: INForum, 2017
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Technologies, tools, and standards
 
   toolset:
-  - name: Python & Django
-    level: 98%
+    - name: Java
+      level: 100%
 
-  - name: Javascript & jQuery
-    level: 98%
+    - name: Spring Boot
+      level: 100%
 
-  - name: Angular
-    level: 98%
+    - name: Spring Security
+      level: 100%
 
-  - name: HTML5 & CSS
-    level: 95%
+    - name: Maven
+      level: 100%
 
-  - name: Ruby on Rails
-    level: 85%
+    - name: Docker
+      level: 100%
 
-  - name: Sketch & Photoshop
-    level: 60%
+    - name: Git
+      level: 100%
+
+    - name: Mockito
+      level: 100%
+
+    - name: JUnit 5
+      level: 100%
+
+    - name: OAuth2.0
+      level: 100%
+
+    - name: PKCS#11
+      level: 100%
+
+    - name: Cloud Signature Consortium (CSC)
+      level: 100%
+
+    - name: Mockito
+      level: 100%
+
+    - name: JUnit 5
+      level: 100%
+    - name: Mockito
+      level: 100%
+
+    - name: JUnit 5
+      level: 100%
+
+    - name: AWS SDK/CLI
+      level: 100%
+
+    - name: Oracle DB
+      level: 90%
+
+    - name: PostgreSQL
+      level: 90%
+
+    - name: Liquibase
+      level: 90%
+
+    - name: Flyway
+      level: 90%
+
+    - name: GitLab
+      level: 90%
+
+    - name: Gerkin
+      level: 75%
+
+    - name: JIRA
+      level: 75%
+
+    - name: Spring Thymeleaf
+      level: 50%
+
+    - name: Spring webflow
+      level: 50%
+
+    - name: Android
+      level: 50%
+
+    - name: OpenID Connect
+      level: 50%
+
+    - name: Serenity
+      level: 50%
+
+    - name: Keycloak
+      level: 50%
+
+    - name: Forgerock AM
+      level: 50%
+
+    - name: eIDAS
+      level: 25%
+
+    - name: Bootstrap
+      level: 25%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Pedro do Vale - 2025
