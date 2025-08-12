@@ -5,7 +5,7 @@
 sidebar:
   position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Pedro do Vale
@@ -37,6 +37,10 @@ sidebar:
 
       - idiom: English
         level: Professional
+
+      - idiom: French
+        level: Basic
+
 
   interests:
     title: Interests
@@ -81,17 +85,18 @@ experiences:
   info:
     - role: Senior Software Developer
       time: 2020 - 2025
-      company: European Commission (Brussels - Belgium)
+      company: European Commission OLAF (Brussels - Belgium)
       details: |
-
         - My first international role
-        - At European Commission Anti-Fraud Office (OLAF)
-        - Initially **outsourced** by a consultancy company based in Portugal
-        - Since 2021, as a **contractor**
+        - At first, **outsourced** by a consultancy company based in Portugal, later as a **contractor**
         - deep technical expertise and adoption of modern practices such as 
         **CI/CD** and **API-first** development (with **OpenAPI Specification**)
         with focus on OAuth implementations
         - Mostly **remote**.
+        - Projects:
+          - AWS S3 Streamed Upload Springboot Starter
+          - Customs Joint Operations Springboot application
+          - OAuth DPoP Springboot Starter
 
     - role: Junior Software Developer
       time: 2017 - 2020
@@ -101,14 +106,17 @@ experiences:
         - Started as a trainee as part of the Master thesis
         - Later hired as a Junior developer
         - Mostly focused on projects related with digitally signed documents
-        - **On-site**.
+        - **On-site**
+        - Projects:
+          - PKCS#11 Java library to store cryptographic keys
+          - Digital Signatures Springboot application
 
 certifications:
   title: Certifications
   list:
     - name: AWS Certified Cloud Practitioner
       start: 2024
-      organization: Amazon Web Services Training and Certification
+      organization: Amazon Web Services
       credentialid:
       credentialurl: www.credly.com/badges/41a84647-1019-4f17-b27c-4ba12cdc21dd/public_url
       credentialname: AWS Certified Cloud Practitioner
@@ -124,23 +132,25 @@ projects:
   intro:
   assignments:
     - title: AWS S3 Streamed Upload Springboot Starter
-      tagline: "Designed and implemented a Spring Boot starter for file uploads to external storage via AWS S3 API, owning both development and architecture."
+      tagline: "Designed and implemented a Spring Boot starter for internal use consisting of file uploads to external storage via AWS S3 API, having owned both development and architecture flows"
 
     - title: "OAuth DPoP Springboot Starter"
-      tagline: "Spring Boot starter for OAuth2 DPoP support in a two-person team, closely following an evolving IETF draft."
+      tagline: "Spring Boot starter for OAuth2 DPoP support in a 2-person team, closely following an evolving IETF draft."
 
     - title: Customs Joint Operations Springboot application
       tagline: "Led the refactoring of a RESTful back-end supporting collaboration across Member States in Joint Operations, as part of a 7-member Agile team applying CI/CD and Agile principles."
 
+    - title: PKCS#11 Java library to store cryptographic keys
+      tagline: "Algorithm to securely store the private keys of users used for digital signing on their behalf and with their explicit authorisation"
+
     - title: Digital Signatures Springboot application
-      tagline: "Orchestrator of digital signatures for Word and PDF documents, with implemenration of an early release of the Cloud Signature Consortium (CSC) API related to Adobe Sign, Portuguese citizen card. Web, B2B, and mobile interfaces"
+      tagline: "Orchestrator of digital signatures for Word and PDF documents in a 5-person team, with implemenration of an early release of the Cloud Signature Consortium (CSC) API related to Adobe Sign, signatures also through the Portuguese citizen card. Web, B2B, and mobile interfaces"
 
 publications:
   title: Publications
   intro:
   papers:
     - title: "RSIGN: Remote Qualified Secure System"
-      link: "#"
       authors: Pedro do Vale
       conference: INForum, 2017
 
