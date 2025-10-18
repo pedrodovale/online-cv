@@ -1,8 +1,5 @@
 name: create PDF file
-on: 
-  push:
-    branches: 
-      - gh-pages
+on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
