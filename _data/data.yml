@@ -65,8 +65,10 @@ career-profile:
     **information systems**. Recognized as a team player and "team facilitator" 
     for fostering collaboration and efficiency.
 
-    Originally from Portugal, currently **based in Brussels**, and open to 
-    relocation.
+    I'm urrently based in Brussel, **relocating to Copenhagen in January**. 
+    While I'm open to covering the relocation costs myself, company-supported
+    relocation is certainly preferred.
+
 education:
   title: Education
   info:
@@ -91,7 +93,6 @@ experiences:
         - deep technical expertise and adoption of modern practices such as 
         **CI/CD** and **API-first** development (with **OpenAPI Specification**)
         with focus on OAuth implementations
-        - Mostly **remote**.
         - Projects:
           - Customs Joint Operations Springboot application
           - AWS S3 Streamed Upload Springboot Starter
@@ -111,8 +112,9 @@ experiences:
       company: Multicert (Lisbon - Portugal)
       details: |
         - Started as a trainee as part of the Master thesis
+        - Hiatus to persue volunteering in Guinea Bissau (2018)
         - Later hired as a Junior developer
-        - Mostly focused on projects related with digitally signed documents
+        - Strong focused on projects related with digitally signed documents
         - Projects:
           - PKCS#11 Java library to store cryptographic keys
           - Digital Signatures Springboot application
